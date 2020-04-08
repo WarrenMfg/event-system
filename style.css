@@ -1,0 +1,25 @@
+* {
+  font-size: 25px;
+}
+
+body {
+  background-color: burlywood;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  transition: all 1s ease;
+}
+
+#frog {
+  transition: all 0.5s ease;
+  color: green;
+}
+
+#fly {
+  position: relative;
+  transition: all 0.5s ease;
+}
